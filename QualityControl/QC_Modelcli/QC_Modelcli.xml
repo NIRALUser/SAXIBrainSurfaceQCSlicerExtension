@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>Surface Models.Advanced</category>
+  <index>0</index>
+  <title>QC_Modelcli</title>
+  <description><![CDATA[CLI module that can be built into an extension]]></description>
+  <version>0.1.0.</version>
+  <documentation-url>https://github.com/FlorianDAVAUX/ShapeAXI</documentation-url>
+  <license/>
+  <contributor>Florian Davaux</contributor>
+  <acknowledgements><![CDATA[...]]></acknowledgements>
+
+  <parameters>
+    <label>IO</label>
+    <description><![CDATA[Input/output parameters]]></description>
+
+    <string>
+      <name>input_dir</name>
+      <label>input_dir</label>
+      <index>0</index>
+      <description>Path for the input directory.</description>
+    </string>
+
+    <string>
+      <name>out</name>
+      <label>out</label>
+      <index>3</index>
+      <description>Path for the output directory.</description>
+    </string>
+  </parameters>
+</executable>
